@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<title>Memory Game</title>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="js/game.js"></script>
+<link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+    <h1>Memory Game</h1>
+    <div class="main">
+<table>
+<tr>
+<td>
+<img src="a.png" class="preimg" alt= "a">
+<img src="b.png" class="preimg" alt= "b">
+<img src="c.png" class="preimg" alt= "c">
+<img src="d.png" class="preimg" alt= "d">
+</td>
+    <td><h2>Pairs</h2></td>
+<td></td>
+</tr>
+<tr>
+<td>
+<img src="e.png" class="preimg" alt= "e">
+<img src="f.png" class="preimg" alt= "f">
+<img src="g.png" class="preimg" alt= "g">
+<img src="h.png" class="preimg" alt= "h">
+</td>
+<td><input type="text" id="pairs" class="boxtxt" /></td>
+<td></td>
+</tr>
+    <tr>
+    <td>
+       <table>
+        <tr>
+            <td><img src="blank.jpg" class="randimg" id="x0" alt="blank"></td>
+            <td><img src="blank.jpg" class="randimg" id="x1" alt="blank"></td>
+            <td><img src="blank.jpg" class="randimg" id="x2" alt="blank"></td>
+            <td><img src="blank.jpg" class="randimg" id="x3" alt="blank"></td>
+        </tr>
+           <tr>
+            <td><img src="blank.jpg" class="randimg" id="x4" alt="blank"></td>
+            <td><img src="blank.jpg" class="randimg" id="x5" alt="blank"></td>
+            <td><img src="blank.jpg" class="randimg" id="x6" alt="blank"></td>
+            <td><img src="blank.jpg" class="randimg" id="x7" alt="blank"></td>
+        </tr>
+           <tr>
+            <td><img src="blank.jpg" class="randimg" id="x8" alt="blank"></td>
+            <td><img src="blank.jpg" class="randimg" id="x9" alt="blank"></td>
+            <td><img src="blank.jpg" class="randimg" id="x10" alt="blank"></td>
+            <td><img src="blank.jpg" class="randimg" id="x11" alt="blank"></td>
+        </tr>
+           <tr>
+            <td><img src="blank.jpg" class="randimg" id="x12" alt="blank"></td>
+            <td><img src="blank.jpg" class="randimg" id="x13" alt="blank"></td>
+            <td><img src="blank.jpg" class="randimg" id="x14" alt="blank"></td>
+            <td><img src="blank.jpg" class="randimg" id="x15" alt="blank"></td>
+        </tr>
+        </table>
+    </td>
+        <td>
+        <h2>Temps</h2><br>
+        <input type="text" id="time" class="boxtxt" /><br>
+            <h2> Points</h2><br>
+            <input type="text" id="point" class="boxtxt" />
+        </td>
+        <td class="valign">
+        <button type="button" id="btnnew" class="btnbutton" >New Game</button>
+            <br>
+            <input type="submit" id="quit" value="Quit" class="btnbutton"/>
+        </td>
+    </tr>
+    </table>
+</div>
+
+    </body>
+</html>

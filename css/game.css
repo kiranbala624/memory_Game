@@ -1,0 +1,90 @@
+body{
+    background-color: #3D2231;
+}
+.boxtxt
+{
+    font-family: 'Montserrat', sans-serif;
+    color:#3D2231;
+    font-size:20px;
+}
+.main
+{
+    border:4px dotted #fdfcfc;
+    border-radius:7px;
+    padding: 10px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color:#ece8e8;
+}
+h1
+{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    color:#dbdbdb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+table{
+    margin:auto;
+}
+.btnbutton
+{
+    height:40px;
+    width:170px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border:1px solid #dbdbdb;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color:#3D2231;
+    font-size:20px;
+}
+.randimg
+{
+border:2px solid #df3b12;
+border-radius: 4px;
+margin-left:3px;
+height:75px;
+width:75px;
+
+}
+.preimg
+{
+    border:1px solid #ece8e8;
+border-radius: 4px;
+margin-left:3px;
+height:75px;
+width:75px;
+}
+
+.blnkimg
+{
+    height:75px;
+    width:75px;
+
+    background: #ff0000;
+}
+.noimg
+{
+    opacity: 0;
+}
+.showimg
+{
+    /*visibility: visible;*/
+    display: block;
+}
+.hideimg
+{
+    /*visibility: hidden;*/
+    display: none;
+}
+.valign
+{
+    vertical-align: bottom;
+
+}

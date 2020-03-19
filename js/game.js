@@ -1,3 +1,4 @@
+'use strict'
 var imageVar = [];
 var count=0;
 var val1="";
